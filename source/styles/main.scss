@@ -1,4 +1,12 @@
-body {
-  background: darkblue;
-  color: white;
-}
+@import "../../node_modules/normalize.scss/normalize.scss";
+
+
+@import "global/fonts";
+@import "global/vars";
+@import "global/base";
+@import "global/common";
+@import "global/sprite";
+@import "global/button";
+
+@import "sections/header";
+@import "sections/nav";
